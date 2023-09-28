@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function fetchData() {
         // Replace this URL with the API endpoint you want to test
-        const apiUrl = 'https://jsonplaceholder.typicode.com/posts/1';
+        const apiUrl = 'https://main--heroic-trifle-47908d.netlify.app/.netlify/functions/api';
 
         fetch(apiUrl)
             .then(response => response.json())
